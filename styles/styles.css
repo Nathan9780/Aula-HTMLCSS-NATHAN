@@ -59,25 +59,26 @@ text-decoration: none;
     margin: auto;
     margin-top: 10px;
     text-align: center;
-    
+    margin-bottom: 40px;
 }
-#containerCard{
+
+#containerCard {
     display: flex;
     flex-wrap: wrap;
-    background-color: blue;
-    width: 90%;
-    margin: auto;
-    margin-top: 10px;
-    
-align-items: center;
-gap: 10px;
+    justify-content: center;
+    gap: 16px; 
 }
-.cards{
-    border: solid 1px black;
-    background-color: white;
-    width: 250px;
-    margin: 0;
+
+.cards {
+    flex: 0 1 calc(25% - 16px); 
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 16px;
 }
-.imgCard{
-    width: 180px;
-}
+
+.imgCard {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 8px};
