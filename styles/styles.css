@@ -1,13 +1,41 @@
+:root{
+    --backcolor1: tomato;
+    --color1: #DDA0DD;
+    --color2: #EE82EE;
+    --color3: #9370DB;
+    --color4: #00FF00;
+
+}
 body{
-    background-color: tomato;
+    background-color: var(--backcolor1);
 }
 .HeaderFooter{
+    display: flex;
     background-color: aqua;
     width: 90%;
     margin: auto;
-    height: 50px;
-    text-align: center;
+    height: 70px;
+    text-align: center; 
 
+}
+#menuContainer{
+     display: flex;
+    list-style: none;
+    gap: 20px;
+}
+#imgLogo{
+width: 93.5px;
+}
+.menu {
+    border: solid 1px black;
+    padding: 10px;
+    background-color:var(--color1);
+}
+.menu:hover{
+    background-color:var(--color2) ;
+}
+#menu a {
+text-decoration: none;
 }
 #carrosel{
     background-color: chartreuse;
@@ -31,7 +59,7 @@ body{
     margin: auto;
     margin-top: 10px;
     text-align: center;
-    margin: auto;
+    
 }
 #containerCard{
     display: flex;
@@ -41,14 +69,14 @@ body{
     margin: auto;
     margin-top: 10px;
     
-height: 220px;
+align-items: center;
 gap: 10px;
 }
 .cards{
     border: solid 1px black;
     background-color: white;
     width: 250px;
-    margin: auto;
+    margin: 0;
 }
 .imgCard{
     width: 180px;

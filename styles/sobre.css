@@ -1,0 +1,33 @@
+
+main {
+  max-width: 1680px;
+  margin: 40px auto;
+  padding:20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+h2 {
+  color: #0052cc;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
